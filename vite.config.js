@@ -1,8 +1,8 @@
-// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Song-Notebook-App/', // ต้องตรงกับชื่อ repo
+  // IMPORTANT: change this to your repo name (case-sensitive) before deploy
+  base: '/Song-Notebook-App/',
 })

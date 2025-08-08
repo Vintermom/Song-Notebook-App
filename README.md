@@ -1,12 +1,11 @@
-# Songwriting Notebook — Deploy Ready
+# Song Notebook Demo (PWA, TH/EN)
+- Home card view with "Last updated" (local). Search, delete (confirm).
+- Editor: Simple/Pro, insert sections, key header, custom chord, emotion, song notes.
+- Auto timestamps: createdAt (first save), updatedAt (every save). Read-only.
+- Export PDF (jsPDF) — includes Created/Updated (local), clean layout.
+- Backup/Restore JSON.
+- PWA (manifest, icons, sw.js). Responsive. Themes: Warm / Dark. i18n TH/EN.
+- GitHub Pages workflow. Vite base preset to `/Song-Notebook-App/`.
 
-This repository is structured at the root and includes a GitHub Actions workflow to deploy to **GitHub Pages**.
-
-## Quick start (GitHub Pages)
-1. Commit & push to `main`.
-2. Ensure repository name is the same as set in `vite.config.js` `base` option (default `/Song-Notebook-App/`).
-3. In GitHub repo: Settings → Pages → Source = GitHub Actions.
-4. Check the Actions tab; when green, your app will be live at:
-   `https://<username>.github.io/Song-Notebook-App/`
-
-> If your repository name differs, edit `vite.config.js` to match it exactly.
+Dev: `npm install` → `npm run dev`
+Deploy: edit `vite.config.js` base to your repo name → commit/push to main.
